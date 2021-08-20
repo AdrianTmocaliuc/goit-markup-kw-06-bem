@@ -1,9 +1,9 @@
-.section.team {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
 }
-.section-members {
+.team__list {
   display: flex;
   p {
     font-size: 16px;
@@ -12,7 +12,7 @@
     margin-top: 0;
   }
 }
-.section-members-title {
+.team__member-name {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -20,7 +20,7 @@
   margin-bottom: 10px;
 }
 
-.section-members-list {
+.team__member {
   width: 270px;
   background: #ffffff;
   border-radius: 0px;
@@ -32,7 +32,7 @@
   }
 }
 
-.team-content {
+.team__member-description {
   text-align: center;
   padding: 30px 32px;
 }
