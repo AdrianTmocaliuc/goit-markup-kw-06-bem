@@ -3,7 +3,7 @@
   --second-text-color: #757575;
   --button-text-color: #2196f3;
   --icons-color: #afb1b8;
-  --transition-link-time: 2000ms;
+  --transition-link-time: 250ms;
   --transition-cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --main-font-style: Roboto, sans-serif;
 }
@@ -357,12 +357,12 @@ img {
   padding-bottom: 60px;
 }
 
-.container-footer {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.container-footer-contact:not(:last-child) {
+.footer__contact:not(:last-child) {
   margin-right: 70px;
 }
 
