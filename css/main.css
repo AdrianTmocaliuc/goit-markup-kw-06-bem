@@ -64,10 +64,6 @@ img {
   width: 100%;
 }
 
-.webstudio-web {
-  color: var(--button-text-color);
-}
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -342,6 +338,23 @@ img {
   margin-bottom: 50px;
 }
 
+.logo {
+  display: block;
+  font-family: Raleway, sans-serif;
+  color: var(--button-text-color);
+  font-size: 26px;
+}
+
+.logo__web-header {
+  margin-right: 93px;
+  color: var(--main-text-color);
+}
+
+.logo__web-footer {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
 .footer {
   background: #2f303a;
   padding-top: 60px;
@@ -355,15 +368,6 @@ img {
 
 .container-footer-contact:not(:last-child) {
   margin-right: 70px;
-}
-
-.footer-logo {
-  color: #fff;
-  font-family: Raleway, sans-serif;
-  text-decoration: none;
-  font-size: 26px;
-  display: block;
-  margin-bottom: 20px;
 }
 
 .address {
@@ -456,15 +460,6 @@ header {
 
 .header__container {
   display: flex;
-}
-
-.header-logo {
-  display: block;
-  font-family: Raleway, sans-serif;
-  color: var(--main-text-color);
-  font-size: 26px;
-  align-items: center;
-  margin-right: 93px;
 }
 
 .nav__link {
