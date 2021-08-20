@@ -1,0 +1,46 @@
+.section.description {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
+.section-title.description {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+.section-description-box {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-description-list-icon {
+  width: 120px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+
+.section-list {
+  display: flex;
+  li {
+    width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
