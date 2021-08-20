@@ -19,18 +19,13 @@
   &:hover,
   &:focus {
     background-color: var(--button-text-color);
-    transition: background-color var(--transition-link-time)
-      var(--transition-cubic);
-    transition: fill var(--transition-link-time) var(--transition-cubic);
-    .social-list-icon {
+    .social-list__icon {
       fill: #ffffff;
-      transition: fill var(--transition-link-time) var(--transition-cubic);
     }
   }
 }
 .social-list__icon {
   fill: var(--icons-color);
-  transition: fill var(--transition-link-time) var(--transition-cubic);
 }
 
 .footer-social-list {
@@ -51,8 +46,6 @@
   &:hover,
   &:focus {
     background-color: var(--button-text-color);
-    transition: background-color var(--transition-link-time)
-      var(--transition-cubic);
   }
 }
 

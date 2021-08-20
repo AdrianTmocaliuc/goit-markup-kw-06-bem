@@ -35,10 +35,8 @@
   &:hover,
   &:focus {
     border-color: var(--button-text-color);
-    transition: border-color var(--transition-link-time) var(--transition-cubic);
     .regular-costumer-list-icon {
       fill: var(--button-text-color);
-      transition: fill var(--transition-link-time) var(--transition-cubic);
     }
   }
 }

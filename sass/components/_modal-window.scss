@@ -29,6 +29,5 @@
   &:hover,
   &:focus {
     fill: var(--button-text-color);
-    transition: fill var(--transition-link-time) var(--transition-cubic);
   }
 }

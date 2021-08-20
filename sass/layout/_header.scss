@@ -34,7 +34,6 @@ header {
   &:hover,
   &:focus {
     color: var(--button-text-color);
-    transition: color var(--transition-link-time) var(--transition-cubic);
   }
 
   &.nav__link_current {
@@ -69,10 +68,8 @@ header {
   &:hover,
   &:focus {
     color: var(--button-text-color);
-    transition: color var(--transition-link-time) var(--transition-cubic);
     .header-contact-icon {
       fill: var(--button-text-color);
-      transition: fill var(--transition-link-time) var(--transition-cubic);
     }
   }
 }
@@ -91,11 +88,9 @@ header {
   &:hover,
   &:focus {
     color: var(--button-text-color);
-    transition: color var(--transition-link-time) var(--transition-cubic);
 
     .header-contact__icon {
       fill: var(--button-text-color);
-      transition: fill var(--transition-link-time) var(--transition-cubic);
     }
   }
 }

@@ -18,12 +18,11 @@
     margin-bottom: 9px;
   }
   .link {
-    font-family: Roboto, sans-serif;
+    font-family: var(--main-font-style);
     transition: color var(--transition-link-time) var(--transition-cubic);
     &:hover,
     &:focus {
       color: var(--button-text-color);
-      transition: color var(--transition-link-time) var(--transition-cubic);
     }
   }
 }
@@ -38,7 +37,7 @@
 
 .container-footer-social-invite {
   color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font-style);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
