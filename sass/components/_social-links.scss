@@ -26,6 +26,7 @@
 }
 .social-list__icon {
   fill: var(--icons-color);
+  transition: fill var(--transition-link-time) var(--transition-cubic);
 }
 
 .footer-social-list {

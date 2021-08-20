@@ -3,7 +3,7 @@
   --second-text-color: #757575;
   --button-text-color: #2196f3;
   --icons-color: #afb1b8;
-  --transition-link-time: 500ms;
+  --transition-link-time: 2000ms;
   --transition-cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --main-font-style: Roboto, sans-serif;
 }
@@ -31,7 +31,7 @@
 body {
   color: var(--second-text-color);
   background-color: #fff;
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font-style);
   letter-spacing: 0.03em;
 }
 
@@ -117,7 +117,6 @@ img {
 }
 
 .modal-form-head {
-  font-family: var(--main-font-style);
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -283,6 +282,7 @@ img {
 
 .social-list__icon {
   fill: var(--icons-color);
+  transition: fill var(--transition-link-time) var(--transition-cubic);
 }
 
 .footer-social-list {
@@ -323,7 +323,6 @@ img {
 }
 
 .regular-costumer-title {
-  font-family: var(--main-font-style);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -334,9 +333,9 @@ img {
 
 .logo {
   display: block;
-  font-family: Raleway, sans-serif;
   color: var(--button-text-color);
   font-size: 26px;
+  font-weight: 700;
 }
 
 .logo__web-header {
@@ -376,7 +375,6 @@ img {
 }
 
 .address .link {
-  font-family: var(--main-font-style);
   transition: color var(--transition-link-time) var(--transition-cubic);
 }
 
@@ -395,7 +393,6 @@ img {
 
 .container-footer-social-invite {
   color: #ffffff;
-  font-family: var(--main-font-style);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
@@ -837,7 +834,6 @@ header {
 
 .occupation__image-title {
   text-transform: uppercase;
-  font-family: var(--main-font-style);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
