@@ -12,7 +12,7 @@
   margin-right: 70px;
 }
 
-.address {
+.address-list {
   font-style: normal;
   li:not(:last-child) {
     margin-bottom: 9px;
@@ -34,19 +34,19 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.container-footer-social-invite {
+.footer__social-invition {
   color: #ffffff;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
-.footer-form {
+.footer-form__modify {
   margin-left: auto;
 }
 
-.footer-form-title {
+.footer-form__title {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 14px;
@@ -55,7 +55,7 @@
   margin-bottom: 20px;
 }
 
-.footer-farm-email {
+.footer-farm__email {
   height: 50px;
   width: 358px;
   padding-left: 10px;

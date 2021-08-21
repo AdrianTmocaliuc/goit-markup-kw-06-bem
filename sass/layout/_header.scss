@@ -77,6 +77,7 @@ header {
 .header-contact__icon {
   margin-right: 10px;
   fill: var(--second-text-color);
+  transition: fill var(--transition-link-time) var(--transition-cubic);
 }
 
 .header-contact__tel,
@@ -84,6 +85,7 @@ header {
   display: flex;
   align-items: center;
   color: var(--second-text-color);
+  transition: color var(--transition-link-time) var(--transition-cubic);
 
   &:hover,
   &:focus {
