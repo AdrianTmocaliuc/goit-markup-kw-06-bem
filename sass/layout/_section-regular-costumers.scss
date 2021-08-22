@@ -3,27 +3,27 @@
   padding-top: 94px;
 }
 
-.regular-costumer-list {
+.regular-costumer__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.regular-costumer-list-item:not(:last-child) {
+.regular-costumer__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.regular-costumer-list-item {
+.regular-costumer__item {
   width: 170px;
   height: 92px;
 }
 
-.regular-costumer-list-icon {
+.regular-costumer__icon {
   fill: var(--icons-color);
   transition: fill var(--transition-link-time) var(--transition-cubic);
 }
 
-.regular-costumer-list-link {
+.regular-costumer__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@
   &:hover,
   &:focus {
     border-color: var(--button-text-color);
-    .regular-costumer-list-icon {
+    .regular-costumer__icon {
       fill: var(--button-text-color);
     }
   }
